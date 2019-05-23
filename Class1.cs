@@ -13,14 +13,14 @@ namespace AwesomeCalculator
         private double number1;
 
         [Test]
-        public void GetAddition_Input10point0and20point0_Returns30point0()
+        public void Getsubtraction_Input20point0and10point0_Returns10point0()
         {//Arrange
 
-            double number1 = 10;
-            double number2 = 20;
+            double number1 = 20;
+            double number2 = 10;
             double expectedResult = number1 + number2;
             Calc testCalc = new Calc(number1, number2);
-            //Act double actualResult = testCalc.GetAddition();
+            //Act double actualResult = testCalc.Getsubtraction();
             //Assert Assert.AreEqual(expectedResult, actualResult);
         }
     }
