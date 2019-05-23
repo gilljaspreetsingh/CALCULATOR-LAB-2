@@ -13,11 +13,11 @@ namespace AwesomeCalculator
         private double number1;
 
         [Test]
-        public void GetAddition_Input3point4and5point6_Returns9point0()
+        public void GetAddition_Input2point0and3point0_Returns5point0()
         {//Arrange
 
-            double number1 = 9.4;
-            double number2 = 6.6;
+            double number1 = 2;
+            double number2 = 3;
             double expectedResult = number1 + number2;
             Calc testCalc = new Calc(number1, number2);
             //Act double actualResult = testCalc.GetAddition();
