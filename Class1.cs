@@ -13,10 +13,10 @@ namespace AwesomeCalculator
         private double number1;
 
         [Test]
-        public void Getsubtraction_Input20point0and10point0_Returns10point0()
+        public void Getsubtraction_Input50point0and10point0_Returns40point0()
         {//Arrange
 
-            double number1 = 20;
+            double number1 = 50;
             double number2 = 10;
             double expectedResult = number1 + number2;
             Calc testCalc = new Calc(number1, number2);
